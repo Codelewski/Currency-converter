@@ -21,43 +21,42 @@
       property="og:image"
       content="https://i.ibb.co/nPWV06x/Currency-Converter.jpg"
     />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./header.css" />
-    <link rel="stylesheet" href="./form.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
     <script defer src="./script.js"></script>
     <title>Currency Converter</title>
   </head>
   <body class="body">
-
     <div class="container">
-    <header class="header">
-      <h1 class="header__heading">Przelicznik walut</h1>
-    </header>
+      <header class="header">
+        <h1 class="header__heading">Przelicznik walut</h1>
+      </header>
 
-    <form class="form js-form">
-      <label class="form__label">
-        Kwota w PLN
-        <input
-          class="form__amount js-amount"
-          type="number"
-          required
-          step="any"
-          min="0.01"
-        />
-      </label>
+      <form class="form js-form">
+        <label class="form__label">
+          Kwota w PLN
+          <input
+            class="form__amount js-amount"
+            type="number"
+            required
+            step="any"
+            min="0.01"
+          />
+        </label>
 
-      <label class="form__label">
-        Wybierz walutę
-        <select class="form__currencies js-currency">
-          <option class="form__currency">EUR</option>
-          <option class="form__currency">USD</option>
-          <option class="form__currency">GBP</option>
-        </select>
-      </label>
-      <button class="form__calculateButton">Przelicz</button>
-      <button class="form__resetButton js-resetBtn" type="reset">Reset</button>
-      <p class="form__result">Wynik: <strong class="js-result"></strong></p>
-    </form>
+        <label class="form__label">
+          Wybierz walutę
+          <select class="form__options js-currency">
+            <option>EUR</option>
+            <option>USD</option>
+            <option>GBP</option>
+          </select>
+        </label>
+        <button class="form__button">Przelicz</button>
+        <button class="form__button js-resetBtn" type="reset">Reset</button>
+        <p class="form__result">Wynik: <strong class="js-result"></strong></p>
+      </form>
     </div>
   </body>
 </html>

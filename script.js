@@ -16,14 +16,14 @@
     }
   };
 
-  const resultTxt = document.querySelector(".js-result");
+  const resultText = document.querySelector(".js-result");
 
   const updateResultText = (result, currency) => {
-    resultTxt.innerText = `${result.toFixed(2)} ${currency}`;
+    resultText.innerText = `${result.toFixed(2)} ${currency}`;
   };
 
   const handleFormReset = () => {
-    resultTxt.innerText = "";
+    resultText.innerText = "";
   };
 
   const onFormSubmit = (event) => {
