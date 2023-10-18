@@ -1,7 +1,7 @@
 # Welcome on my Currency converter!
 
 
-<img src="https://s6.gifyu.com/images/S6Z1f.gif" alt="My currency converter GIF">
+<img src="https://s6.gifyu.com/images/S6rMe.gif" alt="My currency converter GIF">
 
 
 Hello, I present my simple currency converter. The task was to use arrow functions, apply flexbox and background-image and more. The task was quite simple, but the implementation of "newer" javascript required me to learn the arrow functions in depth. I hope you enjoy it. Greetings :)
